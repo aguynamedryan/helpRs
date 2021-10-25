@@ -1,0 +1,19 @@
+Package: helpRs
+Type: Package
+Title: My little utility functions
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: I found myself writing the same few functions in each project
+    I made, so I decided to put them in their own package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    gtools,
+    devtools,
+    logger
+RoxygenNote: 7.1.2
