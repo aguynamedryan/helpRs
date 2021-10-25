@@ -2,6 +2,7 @@
 
 export(browser_if)
 export(btap)
+export(clear_console)
 export(is_blank)
 export(is_present)
 export(ldtap)
