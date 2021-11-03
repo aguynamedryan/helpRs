@@ -1,9 +1,9 @@
 Package: helpRs
 Type: Package
-Title: My little utility functions
-Version: 0.1.0
+Title: My Little Utility Functions
+Version: 0.0.0.99999
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: The package maintainer <aguynamedryan@gmail.com>
 Description: I found myself writing the same few functions in each project
     I made, so I decided to put them in their own package.
 License: MIT + file LICENSE
