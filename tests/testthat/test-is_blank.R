@@ -14,6 +14,10 @@ testthat::test_that("is_blank works with empty list", {
   testthat::expect_true(is_blank(list()))
 })
 
+testthat::test_that("is_blank works with empty env", {
+  testthat::expect_true(is_blank(new.env()))
+})
+
 testthat::test_that("is_blank works with empty string", {
   testthat::expect_true(is_blank(""))
 })

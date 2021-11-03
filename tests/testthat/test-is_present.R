@@ -14,6 +14,10 @@ testthat::test_that("is_present works with empty list", {
   testthat::expect_false(is_present(list()))
 })
 
+testthat::test_that("is_present works with empty env", {
+  testthat::expect_false(is_present(new.env()))
+})
+
 testthat::test_that("is_present works with empty string", {
   testthat::expect_false(is_present(""))
 })
