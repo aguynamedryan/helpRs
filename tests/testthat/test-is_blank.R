@@ -18,8 +18,16 @@ testthat::test_that("is_blank works with empty env", {
   testthat::expect_true(is_blank(new.env()))
 })
 
+testthat::test_that("is_blank works with null character", {
+  testthat::expect_true(is_blank(character(0)))
+})
+
 testthat::test_that("is_blank works with empty string", {
   testthat::expect_true(is_blank(""))
+})
+
+testthat::test_that("is_blank works with character vector", {
+  testthat::expect_false(is_blank(c("", "a")))
 })
 
 testthat::test_that("is_blank doesn't blow up with a string", {
