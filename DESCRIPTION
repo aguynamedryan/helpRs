@@ -15,5 +15,6 @@ Config/testthat/edition: 3
 Imports: 
     gtools,
     devtools,
-    logger
+    logger,
+    stringr
 RoxygenNote: 7.1.2
