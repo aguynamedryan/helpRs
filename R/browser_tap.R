@@ -4,6 +4,6 @@
 #' @param thing The object to inspect during a call to \code{browser}
 #' @return The object passed in to allow for method chaining
 #' @export
-btap <- function(thing) {
+browser_tap <- function(thing) {
   tap(thing, function(thing) { browser() })
 }

@@ -7,6 +7,6 @@ is_blank <- function(thing) {
   if (class(thing) == "environment") {
     return(length(thing) == 0)
   } else {
-    is.na(thing) || is.null(thing) || length(thing) == 0 || all(thing == "")
+    all(is.na(thing)) || all(is.null(thing)) || all(length(thing) == 0) || all(thing == "")
   }
 }
