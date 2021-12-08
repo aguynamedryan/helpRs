@@ -16,5 +16,7 @@ Imports:
     gtools,
     devtools,
     logger,
-    stringr
+    stringr,
+    withr (>= 2.4.2),
+    rlang
 RoxygenNote: 7.1.2
